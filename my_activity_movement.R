@@ -50,11 +50,6 @@ main_activity <- function() {
 
 ## 9. All of the R code needed to reproduce the results (numbers, plots, etc.) in the report
 
-   
-   
-## output md-file
-##knit(input="yourRmdfile.Rmd", output = "nameofyourmdfile.md")
-   
 } 
      
 ##------------------------------------------------------------------------------------------
@@ -530,7 +525,7 @@ plot_compare_ave_number_of_steps <- function( df, f_screen = FALSE ) {
   
   if ( f_screen == FALSE ) {
     ## graphic device pnp
-    png( filename = "time_series_of_steps_per_day.png", 
+    png( filename = "compare_ave_number_of_steps.png", 
          width = 480, 
          height = 480 )
   }      
